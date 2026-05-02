@@ -53,10 +53,6 @@ h2 { font-size: 2.4rem; margin-bottom: 30px; }
 .btn-outline { border: 1px solid white; color: white; }
 .btn:hover { opacity: 0.8; transform: scale(1.02); }
 
-/* SEDES */
-.grid-sedes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-.sede-card { border: 1px solid #333; padding: 25px; border-radius: 8px; }
-.sede-card a { color: var(--olive); text-decoration: none; font-weight: bold; font-size: 0.9rem; }
 
 /* FORMULARIO */
 .contacto { background: var(--pink); color: white; text-align: center; }
@@ -65,72 +61,6 @@ h2 { font-size: 2.4rem; margin-bottom: 30px; }
 input { width: 100%; padding: 15px; margin-bottom: 10px; border-radius: 4px; border: none; }
 
 
-.sedes-seccion {
-    padding: 60px 20px;
-    background-color: #f9f9f9;
-}
-
-.sedes-grid {
-    display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
-    margin-top: 30px;
-}
-
-.sedes-lista {
-    flex: 1;
-    min-width: 300px;
-}
-
-.sede-item {
-    background: white;
-    padding: 20px;
-    margin-bottom: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-    border-left: 4px solid #007bff; /* Color institucional */
-}
-
-.sede-item h3 {
-    margin-top: 0;
-    color: #333;
-    font-size: 1.2rem;
-}
-
-.btn-mapa {
-    display: inline-block;
-    margin-top: 10px;
-    font-size: 0.9rem;
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.mapa-contenedor {
-    flex: 1;
-    min-width: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.mapa-img-referencia {
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-}
-
-/* Ajuste para Celulares */
-@media (max-width: 768px) {
-    .sedes-grid {
-        flex-direction: column;
-    }
-    
-    .mapa-contenedor {
-        order: -1; /* El mapa aparece primero en móviles */
-    }
-}
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
